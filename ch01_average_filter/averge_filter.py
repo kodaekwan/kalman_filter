@@ -55,6 +55,6 @@ for i in range(1000):
 plt.plot(meas, 'r*', label='Measured')
 plt.plot(filt, 'b-', label='Average')
 plt.plot(filt2, 'g-', label='LOWPASS')
-
+plt.legend()
 
 plt.show();
